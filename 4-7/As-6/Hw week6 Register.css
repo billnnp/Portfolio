@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+#Registers{
+    font-family: 'waffle regular';
+    font-size: 20pt;
+    color: pink;
+}
+
+legend{
+    font-size: 30pt;
+}
+
+span{
+    color: red;
+}

@@ -1,0 +1,61 @@
+body{
+    font-family: monospace, 'waffle regular' ,Garamond, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: pink;
+    font-size: 15pt;
+}
+
+h4{
+    color: pink;
+    margin-left: 50px;
+}
+
+#alert{    
+    text-align: center;
+    margin: 50px;
+}
+
+#topic1{
+    color: lime;
+    margin-left: 50px;    
+}
+
+#comment1{
+    color: lime;
+    margin-left: 50px;    
+}
+
+#comment2{
+    color: lime;    
+    margin-left: 50px;
+    margin-bottom: 30px; 
+}
+
+#text1{
+    color:black;
+    background-color: pink;
+    border: chartreuse solid 2px;
+    margin-left: 20px;
+    width: 500px;
+    height: 20px;
+    font-size: 15px;
+}
+
+hr{
+    border: black solid 3px;
+    background-color: black;
+}
+
+#box{
+    border: pink;
+}
+
+button{
+    margin-left: 20px;
+    font-size: 15pt;
+
+}
+p{
+    border: solid pink 3px;
+}
+
