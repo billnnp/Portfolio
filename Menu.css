@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "BillNannapatSEnglish-Regular";
+  src: url(../Portfolio/BillNannapatSEnglish-Regular.otf);
+}
+@font-face {
+  font-family: "Waffle Regular";
+  src: url(./Waffle\ Regular.otf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #d8d8d6;
+  font-family: "Waffle Regular";
+}
+
+
+.navbar-brand {
+  font-size: 30px;
+}
+#navbarNav {
+  background-color: #739086;
+}
+.container-fluid {
+  font-size: 30px;
+  background-color: #739086;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+.h1-head {
+  font-family: "Waffle Regular";
+  text-align: center;
+  font-size: 50px;
+}
+.header {
+  display: grid;
+  grid-gap: none;
+  grid-template-columns: 50% 50%;
+  font-family: "BillNannapatSEnglish-Regular";
+}
+.header > div {
+  text-align: center;
+  background-color: #d5b9b1;
+}
+.header-top {
+  grid-column: 1 / span 2;
+  margin-top: 80px;
+}
+.header-left {
+  grid-column: 1 / span 1;
+}
+.header-right {
+  grid-column: 2 / span 1;
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    grid-template-columns: 100%;
+  }
+  .header > div {
+    text-align: center;
+    background-color: #d5b9b1;
+  }
+  .header-top {
+    grid-column: 1 / span 1;
+    margin-top: 80px;
+  }
+  .header-left {
+    grid-column: 1 / span 1;
+  }
+  .header-right {
+    grid-column: 1 / span 1;
+  }
+}
+#me {
+  border-radius: 100%;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+#info {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+h4 {
+  font-family: "Waffle Regular";
+  text-align: center;
+}
+dl,ul {
+  font-family: "Waffle Regular";
+  font-size: 30px;
+}
+#logos{
+  width: 7%;
+  margin: auto;
+}
+
+/*Slice*/
+#emo-heart {
+  padding-top: 5%;
+}
+.carousel-inner {
+  width: 40%;
+  margin-left: 30%;
+  padding-bottom: 5%;
+}
+/*Slice*/
+
+/*card*/
+.skill-cards {
+  background-color: #d5b9b1;
+  padding-bottom: 30px;
+}
+.row {
+  margin-left: 3%;
+}
+.card {
+  background-color: #a4bdbe;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 30px;
+}
+
+#emo-Skill {
+  background-color: #d5b9b1;
+  font-family: "Waffle Regular";
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5%;
+}
+/*card*/
+
+#intereste-logo{
+  width: 30%;
+}
+
+/*Assignment*/
+.assignment-cards{
+    background-color: #d5b9b1;
+}
+#row2 {
+  margin-left: 7%;
+}
+.card-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.card-body {
+  margin-bottom: 5%;
+}
+#emo-Assignment {
+  padding-top: 5%;
+}
+/*Assignment*/
+
+/*Interesting*/
+.interesting {
+  padding-top: 5%;
+}
+#row3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#row4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+/*Interesting*/
+
+/*WebProgramming Assignment*/
+.WebProgramming-As{
+  background-color: #d5b9b1;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+#WebProgramming-2{
+  padding-top: 5%;
+  background-color: #d8d8d6;
+}
+/*WebProgramming Assignment*/
+
+/*other project*/
+#game{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15%;
+}
+#line{
+  border-right: 5px solid #d5b9b1 ;
+}
+.vdo{
+  margin-left: 15% ;
+}
+#pic3{
+  width: 90%;
+}
+/*other project*/
+
+.footer{
+
+}
+.footer-1{
+  background-color: #739086;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:link
+{
+    color: #457373;
+}
+a:visited
+{
+    color: black;
+}
+a:hover
+{
+    color:palevioletred;
+}
+a:active
+{
+    color: lightblue;
+}
